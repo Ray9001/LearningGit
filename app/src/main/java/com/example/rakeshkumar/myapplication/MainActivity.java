@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         UserDataBindingActivityBinding userDataBindingActivityBinding = DataBindingUtil.setContentView(this , R.layout.user_data_binding_activity);
         User user = new User(170 , "Ram" , "Singh" , "22222" , "Radhe Radhe");
         userDataBindingActivityBinding.setUser(user);
+        System.out.print("Rakesh");
 
 
 
